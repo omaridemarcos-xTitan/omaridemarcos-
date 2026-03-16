@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            width: 800px;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            margin: 20px auto;
+            border: 1px solid black;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            vertical-align: top;
+        }
+        .main-title {
+            text-align: center;
+            font-style: italic;
+            font-size: 24px;
+            padding: 15px;
+        }
+        .header-blue { background-color: #ADD8E6; color: red; text-align: left; }
+        .header-green { background-color: #2E7D32; color: yellow; }
+        .header-images { background-color: #ADD8E6; color: black; text-align: center; }
+        
+        .footer {
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 18px;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 180px;
+            height: auto;
+        }
+        .error-text { color: red; text-decoration: underline wavy red; }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th colspan="4" class="main-title">My tech stock pick</th>
+    </tr>
+    <tr>
+        <th class="header-blue">Name</th>
+        <th class="header-green">Symbol</th>
+        <th class="header-images">Images</th>
+        <th class="header-green">Contact</th>
+    </tr>
+
+    <tr>
+        <td><span class="error-text">Microsofti</span></td>
+        <td>MSFT</td>
+        <td>
+            <img src="Laptop.JPEG" alt="Laptop">
+        </td>
+        <td>
+            <ul style="margin:0; padding-left:20px;">
+                <li><u>Email:</u> microsofti@mc.se</li>
+                <li>&copy;2013 <b>Microsoft</b> Corporation</li>
+            </ul>
+            <br>
+            <div style="padding-left:5px;">
+                i. Email: microsofti@mc.se<br>
+                ii. &copy;2026 <b>Microsoft</b> Corporation
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Cisco Systems</td>
+        <td>CSCO</td>
+        <td>
+            <img src="Switch.JPEG" alt="Switch">
+        </td>
+        <td>
+            <b>Switch</b><br>
+            <u style="color: blue;">www.uk.hardware.info</u>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="4" class="footer">&copy;SOEN 202</td>
+    </tr>
+</table>
+
+</body>
+</html>
